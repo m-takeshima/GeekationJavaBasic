@@ -5,11 +5,11 @@ public class ifSwitch {
 		
 		//実装内容１
 		
-		int num =3;
+		int num = 3;
 		
-		if(num %2 ==0) {
+		if(num % 2 == 0) {
 			System.out.println("2の倍数です。");
-		}else if(num %3 ==0) {
+		}else if(num % 3 == 0) {
 			System.out.println("3の倍数です。");
 		}else{
 			System.out.println("どちらでもありません");
@@ -18,8 +18,8 @@ public class ifSwitch {
 		//実装内容２		
 		String pref = "北海";
 		
-		switch(pref) {
-			case "北海" :
+		switch (pref) {
+			case "北海":
 				System.out.println("北海道");
 				break;
 			
