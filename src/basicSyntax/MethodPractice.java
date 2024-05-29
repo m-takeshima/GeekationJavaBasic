@@ -15,8 +15,6 @@ public class MethodPractice {
 		
 		System.out.println("計算結果は" + ans + "です。");
 				
-		return;
-
 	}
 	
 	public static void subtraction(int a, int b) {
@@ -24,8 +22,6 @@ public class MethodPractice {
 		
 		System.out.println("計算結果は" + ans + "です。");
 				
-		return;
-
 	}
 	
 	public static void multiplication(int a, int b) {
@@ -33,8 +29,6 @@ public class MethodPractice {
 		
 		System.out.println("計算結果は" + ans + "です。");
 				
-		return;
-
 	}
 	
 	public static void division(int a, int b) {
@@ -42,8 +36,6 @@ public class MethodPractice {
 		
 		System.out.println("計算結果は" + ans + "です。");
 				
-		return;
-
 	}
 	
 	public static void calcAns(int a, int b) {
@@ -52,8 +44,6 @@ public class MethodPractice {
 		subtraction(a,b);
 		multiplication(a,b);
 		division(a,b);
-		
-		return;
 
 	}
 }
