@@ -10,32 +10,40 @@ public class MethodPractice {
 
 	}
 	
-	public static void addition(int a, int b) {
+	public static int addition(int a, int b) {
 		int ans = a + b;
 		
 		System.out.println("計算結果は" + ans + "です。");
-				
+		
+		return ans;
+		
 	}
 	
-	public static void subtraction(int a, int b) {
+	public static int subtraction(int a, int b) {
 		int ans = a - b;
 		
 		System.out.println("計算結果は" + ans + "です。");
+		
+		return ans;
 				
 	}
 	
-	public static void multiplication(int a, int b) {
+	public static int multiplication(int a, int b) {
 		int ans = a * b;
 		
 		System.out.println("計算結果は" + ans + "です。");
+		
+		return ans;		
 				
 	}
 	
-	public static void division(int a, int b) {
+	public static int division(int a, int b) {
 		int ans = a / b;
 		
 		System.out.println("計算結果は" + ans + "です。");
-				
+		
+		return ans;
+		
 	}
 	
 	public static void calcAns(int a, int b) {
