@@ -3,8 +3,8 @@ package basicSyntax;
 public class MethodPractice {
 
 	public static void main(String[] args) {
-		int a = 5;
-		int b = 2;
+		int a = 6;
+		int b = 3;
 		
 		calcAns(a, b);
 
