@@ -6,52 +6,41 @@ public class MethodPractice {
 		int a = 6;
 		int b = 3;
 		
-		calcAns(a, b);
+		int addResult = addition(a,b);
+		int subResult = subtraction(a,b);
+		int multiResult = multiplication(a,b);
+		int divResult = division(a,b);
+		
+		printResult(addResult);
+		printResult(subResult);
+		printResult(multiResult);
+		printResult(divResult);
 
 	}
 	
 	public static int addition(int a, int b) {
-		int ans = a + b;
-		
-		System.out.println("計算結果は" + ans + "です。");
-		
-		return ans;
+		return a + b;
 		
 	}
 	
 	public static int subtraction(int a, int b) {
-		int ans = a - b;
-		
-		System.out.println("計算結果は" + ans + "です。");
-		
-		return ans;
+		return a - b;
 				
 	}
 	
 	public static int multiplication(int a, int b) {
-		int ans = a * b;
-		
-		System.out.println("計算結果は" + ans + "です。");
-		
-		return ans;		
+		return a * b;	
 				
 	}
 	
 	public static int division(int a, int b) {
-		int ans = a / b;
-		
-		System.out.println("計算結果は" + ans + "です。");
-		
-		return ans;
+		return a / b;
 		
 	}
 	
-	public static void calcAns(int a, int b) {
+	public static void printResult(int result) {
 		
-		addition(a, b);
-		subtraction(a,b);
-		multiplication(a,b);
-		division(a,b);
+		System.out.println("計算結果は" + result + "です。");
 
 	}
 }
