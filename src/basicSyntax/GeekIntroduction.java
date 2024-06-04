@@ -27,8 +27,8 @@ public class GeekIntroduction {
 		int i = num1;
 		
 		while (i <= num2) {
-			if (i % 15 == 0) {
-				System.out.println(num1 + "は３の倍数かつ５の倍数です。");
+			if (i % 3 == 0 && i % 5 == 0) {
+				System.out.println(i + "は３の倍数かつ５の倍数です。");
 			} else if (i % 3 == 0) {
 				System.out.println(i + "は３の倍数です");
 			} else if (i % 5 == 0) {
