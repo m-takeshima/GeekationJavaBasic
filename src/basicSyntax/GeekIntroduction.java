@@ -15,13 +15,18 @@ public class GeekIntroduction {
 		}
 	
 	public static void specialSkill(int num1, int num2) {
-	
+		
+		if (num1 <= 0 || num2 <= 0) {
+			System.out.println("num1とnum2は0より大きい値にしてください。");
+			return;
+		}
 		if (num1 > num2) {
 			System.out.println("num2はnum1より大きい値にしてください。");
 			return;
 		}
 		if (num1 > 300 || num2 > 300) {
 			System.out.println("num1とnum2は300以下にしてください。");
+			return;
 		}
 		
 		int i = num1;
