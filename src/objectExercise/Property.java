@@ -28,6 +28,7 @@ public class Property {
 	public void setObjectName(String objectName) {
 		this.objectName = objectName;
 	}
+	
 	public String getOwnerName() {
 		return this.ownerName;
 	}

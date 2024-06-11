@@ -8,16 +8,16 @@ public class Land extends Property{
 		this.space = space;
 	}
 
-public void information (){
-	super.information ();
-	System.out.println("広さ : " + this.space + "㎡");
+	public void information (){
+		super.information ();
+		System.out.println("広さ : " + this.space + "㎡");
 	}
-
-public double getSpace() {
-	return this.space;
+	
+	public double getSpace() {
+		return this.space;
 	}
-
-public void setSpace(double space) {
-	this.space = space;
+	
+	public void setSpace(double space) {
+		this.space = space;
 	}
 }
